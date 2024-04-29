@@ -1,0 +1,23 @@
+{
+  "name": "postcss",
+  "version": "0.1.0",
+  "author": "",
+  "license": "",
+  "description": "",
+  "scripts": {
+    "style": "postcss --config './postcss.config.js' ./sass/style.scss -o ./css/style.css"
+  },
+  "browserslist": [
+    "> 0.2%",
+    "last 2 version",
+    "Firefox ESR",
+    "not dead"
+  ],
+  "devDependencies": {
+    "@csstools/postcss-sass": "^5.1.1",
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "postcss-cli": "^11.0.0",
+    "postcss-scss": "^4.0.9"
+  }
+}

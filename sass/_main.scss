@@ -1,0 +1,45 @@
+body {
+  background-color: $white;
+}
+
+h1 {
+  color: $color-purple;
+  font-size: rem(32);
+  line-height: 1.1;
+  font-weight: 500;
+  font-family: $main-font;
+  padding: 0 1rem;
+}
+
+p,
+ul,
+ol {
+  font-size: rem(16);
+  font-weight: 400;
+  font-family: $main-font;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+hr {
+  border-style: none;
+  border-top: 1px solid $black;
+}
+
+.container {
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0 auto;
+  width: 100%;
+  max-width: 1200px;
+}
+
+.columns {
+  @media (min-width: 769px) {
+    columns: 2;
+  }
+
+  .column {
+    padding: 0 1rem;
+  }
+}
